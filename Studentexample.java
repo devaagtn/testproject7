@@ -10,6 +10,8 @@ public class Studentexample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 List<Student> mylist1 = new ArrayList<Student>();
+List<Student> mylist2 = new ArrayList<Student>();
+List<Student> mylist3 = new ArrayList<Student>();
 Map<Integer,String> mymap1 = new HashMap<Integer,String>();
 Map<Integer,String> mymap2 = new HashMap<Integer,String>();
 mylist1.add(new Student(23,75,"deva",79));
