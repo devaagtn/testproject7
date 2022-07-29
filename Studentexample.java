@@ -22,8 +22,8 @@ mylist1.add(new Student(89,68,"den",81));
 System.out.println(mylist1);
 //mylist1.stream().filter(k->k.getName().startsWith("d")).
 //collect(Collectors.toMap(s->s.getRollno(),k->k.getName())).forEach((k,v)->System.out.println(k+" "+v));
- //mylist1.stream().filter(k->k.getMarks()>70).
-//collect(Collectors.toMap(Student::getRollno,Student::getName)).forEach((k,v)->System.out.println(k+" "+v));
+ mylist1.stream().filter(k->k.getMarks()>70).
+collect(Collectors.toMap(Student::getRollno,Student::getName)).forEach((k,v)->System.out.println(k+" "+v));
 for(Student s : mylist1)
 	if(s.getMarks()>70) {
 		mymap1.put(s.getRollno(), s.getName());
