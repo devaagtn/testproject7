@@ -15,6 +15,8 @@ public class Arrayexample {
 Map<String,Integer> mymap2 = new HashMap<String,Integer>();
 Map<String,Integer> mymap3 = new HashMap<String,Integer>();
 Map<String,Integer> mymap4 = new HashMap<String,Integer>();
+Map<String,Integer> mymap5 = new HashMap<String,Integer>();
+
 
 String[] name = {"deva","kal","veda","karan","deva","kal","daran","darshan","fer","gh"};
 //for(int i =0; i<= name.length-1;i++)
